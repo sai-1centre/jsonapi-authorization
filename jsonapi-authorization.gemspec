@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<jsonapi-resources>.freeze, ["~> 0.7.0"])
+      s.add_runtime_dependency(%q<jsonapi-resources>.freeze, ["~> 0.9.0"])
       s.add_runtime_dependency(%q<pundit>.freeze, ["~> 1.0"])
       s.add_development_dependency(%q<bundler>.freeze, ["~> 1.11"])
       s.add_development_dependency(%q<rake>.freeze, ["~> 10.0"])
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<pry-doc>.freeze, ["~> 0.6"])
       s.add_development_dependency(%q<pry-rails>.freeze, ["~> 0.3.4"])
     else
-      s.add_dependency(%q<jsonapi-resources>.freeze, ["~> 0.7.0"])
+      s.add_dependency(%q<jsonapi-resources>.freeze, ["~> 0.9.0"])
       s.add_dependency(%q<pundit>.freeze, ["~> 1.0"])
       s.add_dependency(%q<bundler>.freeze, ["~> 1.11"])
       s.add_dependency(%q<rake>.freeze, ["~> 10.0"])
@@ -46,7 +46,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<pry-rails>.freeze, ["~> 0.3.4"])
     end
   else
-    s.add_dependency(%q<jsonapi-resources>.freeze, ["~> 0.7.0"])
+    s.add_dependency(%q<jsonapi-resources>.freeze, ["~> 0.9.0"])
     s.add_dependency(%q<pundit>.freeze, ["~> 1.0"])
     s.add_dependency(%q<bundler>.freeze, ["~> 1.11"])
     s.add_dependency(%q<rake>.freeze, ["~> 10.0"])
